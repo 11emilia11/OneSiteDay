@@ -14,6 +14,11 @@ server.get("/", function(req, res) {
 
 })
 
+server.get("/clientes", function(req, res) {
+  return res.sendFile( __dirname+"/views/clientes.html");
+
+})
+
 
 
 

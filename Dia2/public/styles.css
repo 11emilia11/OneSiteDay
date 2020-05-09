@@ -1,3 +1,9 @@
+body {
+  background-color: #FAF3DD;
+  font-family: 'Jost', sans-serif;
+}
+/* MODAL */
+
 #modal {
   position: relative;
   top: 0;
@@ -135,3 +141,70 @@ form button:hover{
 }
 
 
+/* CLIENTES */
+h1 {
+  text-align: center;
+
+}
+section#clientes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+
+}
+
+.cliente {
+  display: flex;
+  background-color: #aed9e0;
+  box-shadow: 0 4 16 -8px  rgba(1, 1, 1, 0.1);
+  border-radius: 32px;
+  margin-bottom: 32px;
+  visibility: visible;
+
+}
+
+.cliente h3 {
+  text-align: left;
+  margin: 0;
+}
+
+.cliente p {
+  text-align: left;
+  margin: 8px 0;
+  color: gray;
+}
+
+.content {
+  padding: 16px;
+  margin: 16px;
+  justify-content: center;
+}
+
+
+nav a {
+  margin: 32px;
+  width: 150px;
+  height: 40px;
+
+  background-color: #fff;
+  color: #ffa69e;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  border-radius: 6px;
+  align-self: end;
+  transition:  400ms;
+  text-decoration: none;
+
+}
+
+nav a:hover{
+  background: #ffa69e;
+  color: #fff;
+  text-decoration: none;
+}
