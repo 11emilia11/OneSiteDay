@@ -39,6 +39,7 @@
   max-width: 800px;
   margin: 0 auto 15%;
 
+
   gap: 20px;
 }
 
@@ -68,6 +69,40 @@ form label {
   line-height: 32px;
   letter-spacing: 0.8px;
 }
+.botoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+
+
+}
+
+form a {
+  width: 150px;
+  height: 40px;
+
+  background-color: #ffffff49;
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 14px;
+  font-weight: bold;
+
+  border-radius: 6px;
+  align-self: end;
+  transition:  400ms;
+  text-decoration: none;
+
+}
+
+form a:hover{
+  background: #fff;
+  color: #ffa69e;
+  text-decoration: none;
+}
 
 form button {
   font-family: 'Roboto', sans-serif;
@@ -82,19 +117,21 @@ form button {
 
   cursor: pointer;
 
-  margin-top: 32px;
-
-  grid-column: 2;
-
   justify-content: end;
 
   transition:  400ms;
+
 }
 
 form button:hover{
   background-color: #B8F2E6;
   color: #5e6472;
   text-decoration: none;
+}
+
+#modal.hide {
+  opacity: 0;
+  visibility: hidden;
 }
 
 
