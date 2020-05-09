@@ -1,5 +1,5 @@
 #modal {
-  position: fixed;
+  position: relative;
   top: 0;
   bottom: 0;
   right: 0;
@@ -8,8 +8,9 @@
   
   display: flex;
   justify-content: center;
-  background-color:  #b5838d;
-  font-family: 'Roboto', sans-serif;
+  background-color:  #ffa69e;
+  font-family: 'Jost', sans-serif;
+  border-radius: 10px;
 
 
 }
@@ -21,7 +22,8 @@
 
 #modal .content {
   margin-top: 5%;
-  color: #fff;
+  color: #5e6472;
+  
 
 }
 
@@ -29,17 +31,17 @@
 #modal .content h1 {
   text-align: center;
   text-transform: uppercase;
+
 }
 
 #modal form {
-  width: 80%;
+  width: 100%;
   max-width: 800px;
   margin: 0 auto 15%;
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 20px;
 }
+
 
 
 .content form div:nth-last-child(3),
@@ -55,7 +57,7 @@ form textarea {
   padding: 12px;
   box-sizing: border-box;
   border-radius: 6px;
-  border: 1px solid rgba(141, 25, 52, 0.5);
+  border: 1px solid rgba(168, 218, 220, 0.5);
   outline: none;
   font-size: 16px;
 
@@ -68,7 +70,10 @@ form label {
 }
 
 form button {
-  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  background-color:#ffa69e;
+  color: #fff;
 
   width: 150px;
   height: 40px;
@@ -87,7 +92,9 @@ form button {
 }
 
 form button:hover{
-  background-color: #0984e3;
-  color: #fff;
+  background-color: #B8F2E6;
+  color: #5e6472;
   text-decoration: none;
 }
+
+
