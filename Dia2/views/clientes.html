@@ -3,6 +3,10 @@
   <head>
     <title>Clientes</title>
     <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/icon" href="https://image.flaticon.com/icons/svg/2666/2666505.svg">
+    <link href="https://fonts.googleapis.com/css?family=Jost:200,300,300i,400,400i,500,600,700,800&display=swap" rel="stylesheet">
+
+
 
   </head>
 
@@ -14,34 +18,28 @@
     </header>
 
     <h1>Clientes</h1>
-    <section id="cliente">
-      <section class="cliente">
-        <div class="content">
-          <h3>Cliente 1</h3>
-          <p>Nome: Clarice Lis</p>
-          <p>Cidade: Recife</p>
-          <p>Estado: Pernambuco</p>
-          <p>Email: abc@gmail.com</p>
-          <p>Telefone: 8197659090</p>
-  
-        </div>
-  
-      </section>
 
-      <section class="cliente">
-        <div class="content">
-          <h3>Cliente 1</h3>
-          <p>Nome: Clarice Lis</p>
-          <p>Cidade: Recife</p>
-          <p>Estado: Pernambuco</p>
-          <p>Email: abc@gmail.com</p>
-          <p>Telefone: 8197659090</p>
-  
-        </div>
-  
-      </section>
+    <section id="clientes">
 
 
+      {% for client in clients %}
+        <section class="cliente">
+          <div class="content">
+            <h3>Cliente</h3>
+            <p>Nome: {{client.name}}</p>
+            <p>Cidade: {{client.city}}</p>
+            <p>Estado: {{client.state}}</p>
+            <p>Email: {{client.email}}</p>
+            <p>Telefone: {{client.phone}}</p>
+    
+          </div>
+    
+        </section>
+
+      {% endfor %}
+
+
+    
     </section>
     
     

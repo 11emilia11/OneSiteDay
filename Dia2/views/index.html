@@ -3,6 +3,7 @@
   <head>
     <title>Cadastro Cliente</title>
     <link rel="stylesheet" href="/styles.css">
+    <link rel="icon" type="image/icon" href="https://image.flaticon.com/icons/svg/2666/2666505.svg">
     <link href="https://fonts.googleapis.com/css?family=Jost:200,300,300i,400,400i,500,600,700,800&display=swap" rel="stylesheet">
   </head>
 
@@ -11,44 +12,45 @@
     <div id="modal">
       <div class="content">
         <h1>Cadastro de Cliente</h1>
-        <form action="/" method="POST">
+
+        <form action="/" method="POST" onsubmit="return checkFields(event)">
           <div class="input-wrapper">
-            <label for="name">Nome</label><br>
-            <input type="text" name="nome" id="name"><br> 
+            <label for="name">Nome</label>
+            <input type="text" name="name">
 
           </div>
           <div class="input-wrapper">
             <label for="city">Cidade</label>
-            <input type="tel" name="" id="">
+            <input type="text" name="city">
 
           </div>
 
           <div class="input-wrapper">
             <label for="state">Estado</label>
-            <input type="text" name="state" id="state">    
+            <input type="text" name="state">    
           </div>
 
           <div class="input-wrapper">
             <label for="email">E-mail</label>
-            <input type="email" name="email" id="email">
+            <input type="email" name="email">
           </div>    
 
 
           <div class="input-wrapper">
             <label for="phone">Telefone</label>
-            <input type="tel" name="phone" id="phone"><br>
+            <input type="tel" name="phone"><br>
           </div>
 
           <div>
             <label for="password">Senha</label>
-            <input type="password" name="password" id="password">
+            <input type="password" name="password">
           </div>  
 
           <div class="botoes">
             <a href="/clientes" onclick="onOff()">Voltar</a>
-            <button>Salvar</button>
-
+            <button>Salvar</button>         
           </div>
+          
           
     
         </form>
