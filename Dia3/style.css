@@ -1,0 +1,85 @@
+html, body {
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.parallax {
+ 
+  height: 100%;
+  opacity: 0.85;
+
+  background-attachment: fixed; /* cria o efeito parallax */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+ 
+
+
+}
+#photo-1{
+  background-image: url('tokyo3.jpg');
+
+
+}
+#photo-2 {
+  background-image: url('tokyo-2.jpg');
+}
+.parallax .borda {
+  padding: 128px 40% 128px 40%;
+  
+}
+.parallax  h1 {
+  opacity: 0.9;
+  background-color:rgb(17, 17, 17);
+  color: #fff;
+  text-align: center;
+  font-weight: lighter;
+  text-transform: uppercase;
+  padding: 16px;
+  font-size: 30px;
+  letter-spacing: 10px;
+
+
+}
+
+
+.content{
+  padding: 32px;
+  font-weight: 500;
+  text-align: justify;
+  background-color:rgba(17, 17, 17, 0.726);
+  color: #fff;
+
+}
+.content h2 {
+  font-weight: 600;
+  text-align: center;
+
+}
+
+
+/* testando usar o span no titulo 
+.caption {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  
+
+}
+
+
+.border {
+
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 30 px;
+  letter-spacing: 10px;
+}
+*/
+
