@@ -1,0 +1,67 @@
+body {
+ 
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+ 
+
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 60px);
+
+}
+
+.sidebar {
+  background: gray;
+  width: 15%;
+  padding: 1em;
+}
+
+.content {
+  background: lightgray;
+  width: 85%;
+}
+
+/* MENU */
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+ul li a {
+  padding: 20px;
+  display: block;
+}
+
+header {
+  height: 60px;
+}
+
+#chat-container {
+  flex-direction: column;
+  display: flex;
+  min-height: 100%;
+  color: gray;
+}
+
+#chat {
+  width: 100%;
+  flex: 1;
+  overflow-y: scroll;
+  padding: 30px;
+  box-sizing: border-box;
+  color:rgb(105, 105, 105);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+ 
+}
