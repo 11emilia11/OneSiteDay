@@ -39,8 +39,11 @@ A ideia é que eu faça em cada dia o MVP do mini-projeto, para aprender a lidar
 --------------------------
 
 Para escolher as ideias de projetos eu me inspirei em algumas ideias de alguns sites, aqui estão os links que usei:
+
+
 Geeks for Geeks - Top 10 Projects For Beginners To Practice HTML and CSS Skills
 https://www.geeksforgeeks.org/top-10-projects-for-beginners-to-practice-html-and-css-skills/
+
 
 upGrad - 21 Interesting Web Development Project Ideas For Beginners [2020]
 https://www.upgrad.com/blog/web-development-project-ideas-for-beginners/#7_SEO-friendly_website
