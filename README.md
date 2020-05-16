@@ -2,14 +2,14 @@
 
 Resolvi passar 30 dias fazendo um miniprojeto de site por dia, a princípio as ideias são as seguintes:
 
-1. Fazer um memorial 
-2. Fazer um site com um formulário 
-3. Fazer um site com listagem dos itens do formulário do dia 2
-4. Fazer um site com parallax 
-5. Fazer um site usando layout grid (tutorial de grid layout)
-6. Fazer um site usando layout flexbox
-7. Fazer um site de To-Do list
-8. Fazer uma landing page
+1. Fazer um memorial :white_check_mark:
+2. Fazer um site com um formulário :white_check_mark:
+3. Fazer um site com listagem dos itens do formulário do dia 2 :white_check_mark:
+4. Fazer um site com parallax :white_check_mark:
+5. Fazer um site usando layout grid (tutorial de grid layout) :white_check_mark:
+6. Fazer um site usando layout flexbox :white_check_mark:
+7. Fazer um site de To-Do list :white_check_mark:
+8. Fazer uma landing page :white_check_mark:
 9. Fazer um site com autenticação (login e senha)
 10. Fazer um site usando uma API (spotify, etc.)
 11. Fazer um site de resenhas de filmes (classificação com estrelas, média de estrelas, etc.)
@@ -32,3 +32,15 @@ Resolvi passar 30 dias fazendo um miniprojeto de site por dia, a princípio as i
 28. Fazer um site SEO-friendly
 29. Fazer um Exit plugin
 30. Fazer uma página de loading usando uma animação 
+
+A ideia é que eu faça em cada dia o MVP do mini-projeto, para aprender a lidar com problemas diferentes, e depois faça outras alterações para deixar os projetos mais completos e interessantes.
+
+
+--------------------------
+
+Para escolher as ideias de projetos eu me inspirei em algumas ideias de alguns sites, aqui estão os links que usei:
+Geeks for Geeks - Top 10 Projects For Beginners To Practice HTML and CSS Skills
+https://www.geeksforgeeks.org/top-10-projects-for-beginners-to-practice-html-and-css-skills/
+
+upGrad - 21 Interesting Web Development Project Ideas For Beginners [2020]
+https://www.upgrad.com/blog/web-development-project-ideas-for-beginners/#7_SEO-friendly_website
