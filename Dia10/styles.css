@@ -1,0 +1,109 @@
+body {
+	background-color: powderblue;
+	font-family: 'Courier Prime', monospace;
+}
+
+h1   {
+	color: white;
+	font-weight: 700;
+	font-size: 300%;
+	text-align: center;
+	margin-top: 64px;
+	margin-bottom: 8px;
+}
+
+p    {
+	color: white;
+	font-weight: 400;
+	font-size: 120%;
+	text-align: center;
+	margin-bottom: 8px;
+
+}
+
+.logo{
+	width: 640px;
+	height: 307px;
+	margin: 0 200px;
+
+	
+
+}
+.subtitle {
+    text-align: center;
+    font-size: 120%;
+    font-weight: 400i;
+
+}
+
+div {
+
+	font-family: courier;
+
+}
+
+#container {
+
+	width: 80%;
+    max-width: 980px;
+    margin: 40px auto;
+  
+
+    display: flex;
+}
+
+section#movies {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+.movie {
+	border: 4px solid white;
+	display: flex;
+	background-color: rgb(227, 248, 247);
+	box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0.1);
+	border-radius: 8px;
+	margin: 8px;
+	padding: 32px;
+
+}
+
+.movie img {
+	width: 150px;
+	height: 150px;
+
+	padding: 32px;
+}
+
+.movie h2 {
+	font-style: bold;
+	color: #474962;
+}
+
+.movie h4 {
+	color: #777195;
+}
+
+.movie p {
+	color: #474962;
+
+
+}
+
+a {
+  text-decoration: none;
+  color: rgb(156, 156, 156);
+
+}
+a:hover {
+  color: rgb(251, 235, 89);
+
+}
+
+.rating-wrapper span {
+  color: rgb(156, 156, 156);
+}
+
+.rating-wrapper span:hover{
+  color: rgb(251, 235, 89);
+}
