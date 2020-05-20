@@ -12,8 +12,8 @@ Resolvi passar 30 dias fazendo um miniprojeto de site por dia, a princípio as i
 8. Fazer uma landing page :white_check_mark:
 9. Fazer um site com autenticação (login e senha) :white_check_mark:
 10. Fazer um site usando uma API (spotify, etc.) :white_check_mark:
-11. Fazer um site de resenhas de filmes (classificação com estrelas, média de estrelas, etc.)
-12. Fazer um site de um restaurante
+11. Fazer um site de resenhas de filmes (classificação com estrelas, média de estrelas, etc.) :white_check_mark:
+12. Fazer um site de um restaurante :white_check_mark:
 13. Fazer um site de um evento
 14. Fazer um site com portfólio pessoal
 15. Fazer o site estático de um site de entrega de comida
