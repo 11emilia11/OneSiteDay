@@ -7,12 +7,15 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
+i {
+  font-size: 10px;
+}
 
 img {
+  box-shadow: 0 7px 5px #77777762;
   height: 20%;
   width: 20%;
-  
-  border-radius: 50%;
+  border-radius: 50%; /* faz a imagem quadrada ficar redonda */
 }
 
 ul, li {
@@ -21,6 +24,7 @@ ul, li {
 }
 
 a {
+  
   text-decoration: none;
   color: azure;
   font-weight: bold;
@@ -30,6 +34,20 @@ hr {
   margin: 32px; 
   border-radius: 2px;
   border: 1px solid azure;
+}
+
+footer {
+  
+
+  margin: 32px;
+  
+}
+
+footer a {
+  color: #ffffff;
+}
+#header-wrapper {
+  margin: 64px;
 }
 #header-wrapper h1{
   font-weight: 300;
@@ -41,18 +59,32 @@ hr {
 }
 
 #programming-wrapper {
+  margin: 64px;
   list-style-type: square;
 
 }
 
+#experience-wrapper {
+  margin: 64px;
+  font-weight: 400;
+}
+#experience-wrapper h3 {
+  font-weight: 400;
+}
+
+#experience-wrapper li {
+  margin: 64px;
+}
+
 #languages-wrapper {
+  margin: 64px;
   list-style-type: none;
 }
 
 #links-wrapper {
+
   text-align: center;
   list-style-type: none;
-  margin: 16px;
 }
 #links-wrapper ul{
 
