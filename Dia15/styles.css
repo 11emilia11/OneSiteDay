@@ -1,0 +1,43 @@
+/*
+.header-wrapper {
+
+  font-size: 10px;
+
+}
+.header-wrapper ul,li {
+  display: flex;
+img{
+  display: flex;
+  text-align: left;
+  margin-left: 32px;
+  margin-top: 32px;
+  width: 30px;
+  height: 30px;
+
+}
+ 
+}
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-wrapper {
+  background-color: #b60000;
+  color: #e3e3e3;
+  font-size: 10px;
+}
+.nav-wrapper ul,li {
+  display: flex;
+  margin-left: 0;
+  margin-right: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.nav-wrapper a {
+  text-decoration: none;
+  color: #e3e3e3;
+}
